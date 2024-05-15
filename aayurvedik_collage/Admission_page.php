@@ -11,6 +11,9 @@ if(isset($_POST['name'])){
         die("Connection failed: " . mysqli_connect_error());
     }
 
+    // Generate a random alphanumeric ID
+    $id = uniqid('', true);
+    $year = $_POST['year'];
     $name = $_POST['name'];
     $image = $_FILES['image']['name']; // To get the name of the uploaded file
     $course = $_POST['course'];
@@ -31,9 +34,9 @@ if(isset($_POST['name'])){
         move_uploaded_file($_FILES['image']['tmp_name'], $target_file);
 
         // Using prepared statements to prevent SQL injection
-        $sql = "INSERT INTO `add_data` (`name`, `email`, `mobile no`, `gender`, `dob`, `image`, `course`, `password`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+        $sql = "INSERT INTO `add_data` (`id`, `name`, `email`, `mobile no`, `gender`, `dob`, `image`, `course`, `year`, `password`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         $stmt = mysqli_prepare($conn, $sql);
-        mysqli_stmt_bind_param($stmt, "ssssssss", $name, $email, $mno, $gender, $DOB, $target_file, $course, $pass);
+        mysqli_stmt_bind_param($stmt, "ssssssssss", $id, $name, $email, $mno, $gender, $DOB, $target_file, $course, $year, $pass);
 
         if(mysqli_stmt_execute($stmt)){
             echo "<script>alert('Thanks for filling the form!');</script>";
@@ -85,6 +88,35 @@ if(isset($_POST['name'])){
       <!-- Admission form -->
       <div class="r_form">
         <form method="post" action="" enctype="multipart/form-data">
+        <div class="input_wrap">
+            <label>Year of Education</label>
+            <div class="input_radio">
+              <div class="input_radio_item">
+                <input type="radio" id="First" name="year" class="radio" value="1" checked>
+                <label for="First" class="radio_mark">
+                  First Year
+                </label>
+              </div>
+              <div class="input_radio_item">
+                <input type="radio" id="Second" name="year" class="radio" value="2">
+                <label for="Second" class="radio_mark">
+                  Second Year
+                </label>
+              </div>
+              <div class="input_radio_item">
+                <input type="radio" id="Third" name="year" class="radio" value="3">
+                <label for="Third" class="radio_mark">
+                  Third Year
+                </label>
+              </div>
+              <div class="input_radio_item">
+                <input type="radio" id="Fourth" name="year" class="radio" value="4">
+                <label for="Fourth" class="radio_mark">
+                  Fourth Year
+                </label>
+              </div>
+            </div>
+          </div>
           <div class="input_wrap">
             <label for="yourname">Your Name</label>
             <div class="input_item">
@@ -96,7 +128,7 @@ if(isset($_POST['name'])){
             <label for="emailaddress">Email Address</label>
             <div class="input_item">
               <i class="fa fa-envelope" id="icon"></i>
-              <input type="text" name="email" class="input" id="email" placeholder="Enter the Email ID" required>
+              <input type="email" name="email" class="input" id="email" placeholder="Enter the Email ID" required>
             </div>
           </div>
           <div class="input_wrap">
@@ -124,10 +156,10 @@ if(isset($_POST['name'])){
                 </label>
               </div>
               <div class="input_radio_item">
-                <input type="radio" id="others" name="gender" class="radio" value="others">
-                <label for="others" class="radio_mark">
-                  <ion-icon class="i" name="male-female-sharp"></ion-icon>
-                  Others
+                <input type="radio" id="other" name="gender" class="radio" value="other">
+                <label for="other" class="radio_mark">
+                  <ion-icon class="i" name="male-other-sharp"></ion-icon>
+                  Other
                 </label>
               </div>
             </div>
