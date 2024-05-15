@@ -422,42 +422,36 @@ p{
 /*News and Notices*/
 
 .newscon {
-    margin-top: 33px;
-   
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box shadow */
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: 2%;
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    /*max-width: auto; /* Adjust width as needed */
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+    
 }
 
 .newspaper {
-    margin-top: 40px;
-    display: inline-block;
+    margin-top: 1%;
     font-size: 24px;
     color: #4c4d4c;
-    margin-right: 10px;
-    text-align: center;
-}
-
-
-.newscon h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
     text-align: center;
 }
 
 .subcon {
-    margin-top: 40px;
-    padding: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1%;
     
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box shadow */
 }
 
 .subcon p {
-    margin: 0;
+    margin-left: 7%;
+    margin-right: 3%;
 }
 
 /* Optional: Style the marquee */
@@ -471,23 +465,24 @@ p{
 /* Vision and Mission*/
 
 .container1 {
-    margin-top: 20px;
+    margin-top: 1%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    box-shadow: #7d8798;
 }
 
 .column {
     flex: 1;
-    margin-left: 130px;
+    
+    margin-left: 8.8%;
     margin-right: auto;
     padding: 10px;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box shadow */
 }
 .column p{
-    margin: 0;
+    margin: 5%;
+    text-align: justify;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -495,7 +490,8 @@ p{
 }
 
 .column2 ul{
-    margin: 0;
+    margin-left: 5%;
+    text-align: justify;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -504,80 +500,17 @@ p{
 
 .column2 {
     flex: 1;
-    margin-left: 30px;
+    margin-left: 2%;
     margin-right: 130px;
     padding: 10px;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box shadow */
 }
 
-
-/* Optional: Style the paragraphs */
-
-
-/* Styling for the note icon */
 .note-icon {
     font-size: 24px;
     color: #007bff;
     margin-right: 10px;
-}
-/*Campus*/
-
-.campus{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.campus-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-.row3{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.campus-col img{
-    width: 100%;
-    display: block;
-}
-.layer{
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    transition: 0.5s;
-}
-
-.layer:hover{
-    background: rgba(0, 245, 253, 0.534);
-
-    /* rgba(253, 0, 0, 0.7); */
-}
-
-.layer h3{
-    width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 26px;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.layer:hover h3{
-    opacity: 1;
-    bottom: 49%;
 }
 
 /* Facilities */
