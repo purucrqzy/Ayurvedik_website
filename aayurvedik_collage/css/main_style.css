@@ -520,9 +520,17 @@ p{
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 15px;
-    border: 1px solid black;
-    display: flex;
+    box-shadow: 3.5px 5px 15px 10px rgba(0, 0, 0, 0.3);
+    /*border: 1px solid black;
+    */display: flex;
     flex-direction: column;
+  }
+
+  .con-column h2{
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color:#7D8798;
   }
   
   .sub-con {
@@ -532,18 +540,90 @@ p{
   }
   
   .con-image {
+    max-width: 500px;
+    height: 500px;
     border: 1px solid black;
+    border-radius: 15px;
     flex: 1; /* Equal width for both images and text */
     margin-left: 5%;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .con-image1 {
+    max-width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    flex: 1; /* Equal width for both images and text */
+    margin-left: 2%;
     margin-right: 5%;
+    margin-top: 5%;
   }
-  
+ 
+  .con-image2 {
+    max-width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    flex: 1; /* Equal width for both images and text */
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 7%;
+}
+  .con-image3 {
+    max-width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    flex: 1; /* Equal width for both images and text */
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+   
+  }
+  .con-image h3{
+    text-align: center;
+  }
+  .con-image3 h3{
+    text-align: center;
+  }
   .con-image img {
-    max-width: 100%;
-    height: auto;
+    border-radius: 15px;
+    max-width: 500px;
+    height: 500px;
+  }
+  .con-image3 img {
+    border-radius: 15px;
+    max-width: 500px;
+    height: 500px;
   }
   
-  .con-image p {
+  .con-image1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: #7d8798;
+  }
+  
+  .con-image2 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: #7d8798;
+  }
+  .con-image1 p {
+   
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px; /* Add space between image and text */
+  }
+  .con-image2 p {
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: justify;
     font-size: 16px;
     line-height: 1.5;
     margin-left: 20px; /* Add space between image and text */
