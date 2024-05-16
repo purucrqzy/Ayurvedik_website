@@ -513,6 +513,46 @@ p{
     margin-right: 10px;
 }
 
+/* Message Desk's*/
+
+
+.con-column {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sub-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .con-image {
+    border: 1px solid black;
+    flex: 1; /* Equal width for both images and text */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .con-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .con-image p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px; /* Add space between image and text */
+  }
+  
+  
+
+  
+
 /* Facilities */
 
 .facilities1{
