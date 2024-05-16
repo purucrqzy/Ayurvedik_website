@@ -23,6 +23,7 @@ if(isset($_POST['name'])){
     $gender = $_POST['gender']; // Added this to capture the gender input
     $pass = $_POST['password'];
     $confirm_pass = $_POST['confirm_password'];
+    $hash = password_hash($confirm_pass,PASSWORD_BCRYPT);
 
     // Password confirmation check
     if($pass !== $confirm_pass) {
@@ -36,7 +37,7 @@ if(isset($_POST['name'])){
         // Using prepared statements to prevent SQL injection
         $sql = "INSERT INTO `add_data` (`id`, `name`, `email`, `mobile no`, `gender`, `dob`, `image`, `course`, `year`, `password`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         $stmt = mysqli_prepare($conn, $sql);
-        mysqli_stmt_bind_param($stmt, "ssssssssss", $id, $name, $email, $mno, $gender, $DOB, $target_file, $course, $year, $pass);
+        mysqli_stmt_bind_param($stmt, "ssssssssss", $id, $name, $email, $mno, $gender, $DOB, $target_file, $course, $year, $hash);
 
         if(mysqli_stmt_execute($stmt)){
             echo "<script>alert('Thanks for filling the form!');</script>";
