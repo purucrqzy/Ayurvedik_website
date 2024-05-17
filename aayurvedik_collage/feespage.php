@@ -85,6 +85,7 @@ $conn->close();
 
           <div class="title">
             <p id="header_fees">Online Pay Fees</p>
+            <button type="submit" id="out-btn" >Logout</button>
           </div>
 
           <!-- Admission form -->

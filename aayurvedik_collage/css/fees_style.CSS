@@ -116,7 +116,7 @@
         }
         
         .r_form_wrap{
-        width: 500px;
+        width: 850px;
         max-width: 100%;
         }
         
@@ -133,7 +133,19 @@
         text-align: center;
         font-family: myFirstFont;
         }
+        #out-btn{
+            height: 40px;
+            width: 10%;
+            border-radius: 10px;
+            margin-left: 30%;
+            color: white;
+            background-color: #3e2093;
+        }
         
+        #out-btn:hover{
+            border-color: var(--btn-hvr);
+            background: var(--btn-hvr);
+            }
         .r_form{
         padding: 40px;
         border-radius: 3px;
@@ -264,3 +276,4 @@
         overflow: hidden;
     } 
 
+    }
