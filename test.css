@@ -1,0 +1,48 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: bold;
+  src: url(../Poppins/Poppins-Bold.ttf);
+}
+ 
+  body{
+    height: 100vh;
+    /*background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(aayurvedik_collage/image/background.jpg);*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: myFirstFont;
+    background-repeat: no-repeat;
+  }
+
+  
+    /* Website Scrollerbar */
+    body::-webkit-scrollbar {
+      width: 5px !important;
+      height: 5px !important;
+  }
+  body::-webkit-scrollbar-track {
+      background: #3838387c !important;
+  }
+  body::-webkit-scrollbar-thumb {
+      background-color: #e0120ba4 !important;
+      border: 1px solid #ff020279 !important;
+      border-radius: 1px !important;
+  }
+
+
+  /* Image Gallary*/
+
+.td1 img{
+    width: 600px;
+    height: 400px;
+
+}
+.td2 img{
+    width:398.5px;
+    height: 200px;
+
+}
+
