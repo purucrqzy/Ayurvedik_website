@@ -42,15 +42,18 @@
     overflow: hidden;
 }
 .campus-col2 img{
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 100%px;
     display: block;
 }
 
 .layer2{
+    margin-left: 10.3%;
+    margin-right: 10.3%;
     background: transparent;
-    height: 100%;
+    height: 47.5%;
     width: 80%;
+    border-radius: 10px;
     position: absolute;
     top: 0%;
     left: 0%;
