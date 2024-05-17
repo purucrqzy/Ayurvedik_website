@@ -80,8 +80,8 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Pay Fees - GGU</title>
-  <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
-  <link rel="stylesheet" href="/aayurvedik_collage/css/login.css">
+  <link rel="shortcut icon" src="../image/favicon.ico" type="image/svg+xml">
+  <link rel="stylesheet" href="login.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
