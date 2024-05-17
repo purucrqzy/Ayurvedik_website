@@ -180,9 +180,12 @@ if(isset($_POST['name'])){
               <i class="fa fa-caret-square-o-down" aria-hidden="true" id="icon"></i>
               <select id="course" name="course" class="input" required>
                 <option value="select">Select the Course</option>
-                <option value="bca">BCA</option>
-                <option value="bscit">Bsc IT</option>
-                <option value="bscca&it">Bsc CA & IT</option>
+                <option value="Ayurvedic Medicine and Rasayana" <?php if ($course == 'Ayurvedic Medicine and Rasayana') echo 'selected'; ?>>Ayurvedic Medicine and Rasayana</option>
+                    <option value="Ayurvedic Nutrition and Dietetics" <?php if ($course == 'Ayurvedic Nutrition and Dietetics') echo 'selected'; ?>>Ayurvedic Nutrition and Dietetics</option>
+                    <option value="Ayurvedic Herbology and Botany" <?php if ($course == 'Ayurvedic Herbology and Botany') echo 'selected'; ?>>Ayurvedic Herbology and Botany</option>
+                    <option value="Ayurvedic Pharmacology and Formulation" <?php if ($course == 'Ayurvedic Pharmacology and Formulation') echo 'selected'; ?>>Ayurvedic Pharmacology and Formulation</option>
+                    <option value="Ayurvedic Clinical Diagnosis and Case Studies" <?php if ($course == 'Ayurvedic Clinical Diagnosis and Case Studies') echo 'selected'; ?>>Ayurvedic Clinical Diagnosis and Case Studies</option>
+                    <option value="Ayurvedic Psychology and Mind-Body Medicine" <?php if ($course == 'Ayurvedic Psychology and Mind-Body Medicine') echo 'selected'; ?>>Ayurvedic Psychology and Mind-Body Medicine</option>
               </select>
             </div>
           </div>
