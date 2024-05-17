@@ -172,6 +172,7 @@ h2 {
 
 /* Style the right half (containing the slider) */
 .slider-container {
+    max-width: 80%;
     
     position: relative;
     max-width: 800px;

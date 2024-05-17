@@ -68,11 +68,12 @@ $conn->close();
       <div class="nav-links" id="navLinks">
         <span class="icon" onclick="hidemenu()">&#10005;</span>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Admission_page.php">Admission</a></li>
-          <li><a href="index.html#course_call">Course</a></li>
-          <li><a href="fees_page.php">Fees</a></li>
-          <li><a href="Contact_page.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+              <li><a href="Admission_page.php">Admission</a></li>
+              <li><a href="hospital_page.html">Hospital</a></li>
+              <li><a href="Contact_page.html">Contact</a></li>
+              <li><a href="index.html#course_call">Course</a></li>
+              <li><a href="login/login.php">Login</a></li>
         </ul>
       </div>
       <span class="icon" onclick="showmenu()">&#9776;</span>
