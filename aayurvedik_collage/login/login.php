@@ -81,21 +81,21 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Pay Fees - GGU</title>
   <link rel="shortcut icon" src="../image/favicon.ico" type="image/svg+xml">
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="../css/login.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
   <section class="header">
     <nav>
-      <a href="index.html"><img src="/aayurvedik_collage/image/favicon.ico" id="logo-img"></a>
+      <a href="index.html"><img src="../image/favicon.ico" id="logo-img"></a>
       <div class="nav-links" id="navLinks">
         <span class="icon" onclick="hidemenu()">&#10005;</span>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="Admission_page.php">Admission</a></li>
           <li><a href="index.html#course_call">Course</a></li>
-          <li><a href="login/login.php">Fees</a></li>
+          <li><a href="login/login.php">Login</a></li>
           <li><a href="Contact_page.html">Contact</a></li>
         </ul>
       </div>
