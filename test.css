@@ -32,6 +32,55 @@
       border-radius: 1px !important;
   }
 
+  /*Image and Layer*/
+  .campus-col2{
+    flex-basis: 32%;
+    margin-left: 10.3%;
+    margin-right: 10.3%;
+    border: solid black 1px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.campus-col2 img{
+    width: 400px;
+    height: 300px;
+    display: block;
+}
+
+.layer2{
+    background: transparent;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+}
+
+.layer2:hover{
+    background: rgba(0, 245, 253, 0.534);
+
+    /* rgba(253, 0, 0, 0.7); */
+}
+
+.layer2 p{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    bottom: 0%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer2:hover p{
+    opacity: 1;
+    bottom: 30%;
+}
 
   /* Image Gallary*/
 
