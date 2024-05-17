@@ -118,34 +118,35 @@
         .r_form_wrap{
         width: 850px;
         max-width: 100%;
-        }
-        
+        }     
         .r_form_wrap .title{
-        padding: 25px;
-        background: var(--white);
-        border-radius: 3px;
-        margin-bottom: 20px;
-        
-        }
-        
-        .r_form_wrap .title p{
-        font-size: 25px;
-        text-align: center;
-        font-family: myFirstFont;
-        }
-        #out-btn{
-            height: 40px;
-            width: 10%;
-            border-radius: 10px;
-            margin-left: 30%;
-            color: white;
-            background-color: #3e2093;
-        }
-        
-        #out-btn:hover{
-            border-color: var(--btn-hvr);
-            background: var(--btn-hvr);
+            padding: 25px;
+            background: var(--white);
+            border-radius: 3px;
+            margin-bottom: 20px;
+            display: flex;
+            
             }
+            
+            .r_form_wrap .title p{
+            font-size: 25px;
+            text-align: center;
+            font-family: myFirstFont;
+            margin-left: 34%;
+            }
+            #out-btn{
+                height: 40px;
+                width: 10%;
+                border-radius: 10px;
+                margin-left: 30%;
+                color: white;
+                background-color: #3e2093;
+            }
+            
+            #out-btn:hover{
+                border-color: var(--btn-hvr);
+                background: var(--btn-hvr);
+                }
         .r_form{
         padding: 40px;
         border-radius: 3px;
