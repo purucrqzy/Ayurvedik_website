@@ -6,17 +6,17 @@
   font-family: bold;
   src: url(../Poppins/Poppins-Bold.ttf);
 }
- 
+ /*
   body{
     height: 100vh;
     /*background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(aayurvedik_collage/image/background.jpg);*/
-    background-position: center;
+    /*background-position: center;
     background-size: cover;
     position: relative;
     font-family: myFirstFont;
     background-repeat: no-repeat;
   }
-
+  */
   
     /* Website Scrollerbar */
 
@@ -34,4 +34,237 @@
   }
   /*Ignore above code*/
   /*start the css here*/
- 
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+    display: flex;
+    max-width: auto;
+    height: 100vh;
+}
+
+.sidebar {
+  margin-top: 0.7%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 35%;
+    width: 20%;
+    background-color: #e9f1fc;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    text-align: left;
+}
+
+.tab:hover {
+    background-color: #d6e6ff;
+}
+
+.tab.active {
+    background-color: #cce0ff;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+}
+
+.additional-content {
+    flex: 1;
+    margin-top: 0%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-item {
+    display: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.content-item.active {
+    display: block;
+}
+
+  /*Image and Layer*/
+
+  .hsp1{
+    width: 42.3%;
+    margin: auto;
+    margin-left: 5.0%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.hsp-col{
+    flex-basis: 32%;
+    border: solid black 1px;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hsp-col img{
+    border-radius: 10px;
+    width: inherit;
+    height: 300px;
+    display: block;
+}
+
+/*layer*/
+
+.lyr{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+}
+
+
+.lyr h2{
+    background-color:lightblue ;
+    margin-right: 23%;
+    margin-top: 26%;
+    margin-bottom: 5px;
+    color:darkblue;
+    margin-left: 2%;
+    text-align: left;
+    
+}
+
+.lyr:hover h2{
+    color: red;
+}
+
+.lyr p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-right: 23%;
+    background-color: lightblue;
+    margin-top: auto;
+    margin-left: 2%;
+    text-align: left;
+    color: black;
+}
+.lyr:hover p{
+    color: red;
+}
+
+/*paragraph*/
+.para2{
+    max-width: auto;
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.para2 p{
+    color: rgb(104, 100, 100);
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    
+
+}
+
+  /* Image Gallary*/
+
+
+
+  .td1 img{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+
+}
+.td2 img{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:332px;
+    height: 200px;
+
+}
+.td3 img{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:332px;
+    height: 400px;
+
+}
+
+/*Vision and Mission*/
+.column {
+  flex: 1;
+  margin-left: 8.8%;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box shadow */
+  
+}
+.column p{
+  margin: 5%;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color:lightslategrey
+}
+
+.column ul{
+  margin-left: 5%;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color:lightslategrey
+}
+.note-icon {
+  font-size: 24px;
+  color: #007bff;
+  margin-right: 10px;
+}
