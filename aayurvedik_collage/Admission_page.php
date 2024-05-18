@@ -74,7 +74,7 @@ if(isset($_POST['name'])){
         
       <li><a href="index.html">Home</a></li>
       <li><a href="Admission_page.php">Admission</a></li>
-      <li><a href="hospital_page.html">Hospital</a></li>
+      <li><a href="hospital_page.php">Hospital</a></li>
       <li><a href="Contact_page.html">Contact</a></li>
       <li><a href="index.html#course_call">Course</a></li>
       <li><a href="login/login.php">Login</a></li>
