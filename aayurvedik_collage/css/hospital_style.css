@@ -457,3 +457,37 @@ nav img{
   #scrollToTopButton:hover{
     background-color: #e74b33;
   }
+  
+  /**-----tables--------**/
+  .tab-1 {
+    width: 850px;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    }
+
+    .head {
+    border: 3px solid lightgray;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    font-weight: bold;
+    }
+
+     .head th,
+    td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    }
+
+    .col-1 {
+    width: 0.5%;
+    }
+
+    .col-2 {
+    width: 52%;
+    }
+
+    .col-3 {
+    width: 10px;
+    }
