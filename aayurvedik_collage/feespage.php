@@ -154,7 +154,7 @@ $conn->close();
 
   <div class="none_div">
   </div>
-
+  <script src="javascript/scrolltotop.js"></script>
 </body>
 <script src="javascript/fees_script.js"></script>
 <script>

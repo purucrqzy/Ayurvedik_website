@@ -266,6 +266,9 @@ border-color: var(--btn-hvr);
    .clear_ad:hover{
  background: var(--primary);
  }
+
+ 
+
 /* Align items to center of the 'div' with the class 'center' */
 .center {
    text-align: center;
@@ -320,4 +323,26 @@ border-color: var(--btn-hvr);
    .c_from{
        margin-top: 15px;
    }
-   
+}
+
+  
+/*scroll to top button css*/
+#scrollToTopButton{
+   font-weight: 1000;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   display: none;
+   background-color: #3aef22;
+   color: rgb(0, 0, 0);
+   border: none;
+   padding: 10px 15px;
+   font-size: 20px;
+   cursor: pointer;
+   border-radius: 15px;
+   z-index: 1000;
+ }
+
+ #scrollToTopButton:hover{
+   background-color: #e74b33;
+ }
