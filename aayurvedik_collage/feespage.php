@@ -154,7 +154,8 @@ $conn->close();
 
   <div class="none_div">
   </div>
-  <script src="javascript/scrolltotop.js"></script>
+  <button id="scrollToTopButton">TOP</button>
+<script src="javascript/scrolltotop.js"></script>
 </body>
 <script src="javascript/fees_script.js"></script>
 <script>
@@ -193,6 +194,5 @@ $conn->close();
     }
   }
 </script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </html>

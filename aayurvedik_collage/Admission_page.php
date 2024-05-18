@@ -219,6 +219,7 @@ if(isset($_POST['name'])){
   </div>
 </section>
 <div class="none_div"></div>
+<button id="scrollToTopButton">TOP</button>
 <script src="javascript/scrolltotop.js"></script>
 </body>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
