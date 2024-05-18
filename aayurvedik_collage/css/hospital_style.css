@@ -25,8 +25,10 @@ h1{
 }
 
 body {
+    
     align-items: center;
     justify-content: center;
+    
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -457,3 +459,43 @@ nav img{
   #scrollToTopButton:hover{
     background-color: #e74b33;
   }
+
+
+  /*Paitents list*/
+  .image-viewer {
+    border: 1px solid black;
+    width: 100%;
+    margin: auto;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    max-height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-viewer img {
+    margin: auto;
+    width: 900px;
+    height: 400px;
+}
+/*
+.image-view-class{
+ 
+}*/
+.image-view-class h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(13, 14, 13);
+    text-align: start;
+    margin: auto;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    
+}
+.image-view-class h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgreen;
+    text-align: start;
+    margin-left: 1%;
+}
+
