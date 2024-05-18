@@ -169,7 +169,7 @@ $conn->close();
   }
   function sendmail() {
     Email.send({}).then(
-      message => alert("Thank you - Team GGU")
+      message => alert("Thank you - Team SYCET")
     );
   }
 
