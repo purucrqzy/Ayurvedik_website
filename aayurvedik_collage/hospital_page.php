@@ -17,7 +17,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Pay Fees - SYCET</title>
+    <title>Hospital - SYCET</title>
     <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
     <link rel="stylesheet" href="css/hospital_style.css">
 
@@ -64,6 +64,7 @@
             <div class="tab" onclick="showContent('patients')">IPD-OPD Patients</div>
             <div class="tab" onclick="showContent('staff')">Hospital Staff</div>
             <div class="tab" onclick="showContent('activities')">Social Activities</div>
+            
         </div>
         <div class="main-content">
             <div class="other-content">
@@ -430,13 +431,75 @@
         <iframe src="pdflists/other_staff_list.pdf" frameborder="0"></iframe>
     </div>
 </div>
-<div id="activities" class="content-item">Social Activities Content</div>
+
+   
+
+<div id="activities" class="content-item">
+
+<center class="cnter1">
+                        <h2
+                            style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
+                            Social Activities</h2>
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/mcap1.jpg" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/mcap2.jpg" alt="image1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/mcap3.jpg" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/mcap4.jpg" alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/hospitalpage/h12.jpg" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/hospitalpage/h23.jpg" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/hospitalpage/hh9.jpg" alt="image1">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/hospitalpage/hh7.jpg" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/hospitalpage/hh5.jpg" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/hospitalpage/hh3.jpg " alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>           
+            
+</div>
+            
 </div>
 </div>
 </div>
-<script src="test.js"></script>
 <button id="scrollToTopButton">TOP</button>
-<script src="javascript/scrolltotop.js"></script>          
+<script src="javascript/scrolltotop.js"></script>         
 </body>
 
 

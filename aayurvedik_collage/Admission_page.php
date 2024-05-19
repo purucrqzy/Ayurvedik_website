@@ -57,7 +57,7 @@ if(isset($_POST['name'])){
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admission form- GGU</title>
+  <title>Admission form- SYCET</title>
   <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
   <link rel="stylesheet" href="css/admission_style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

@@ -24,6 +24,7 @@ h1{
     font-family: bold;
 }
 
+
 body {
     
     align-items: center;
@@ -123,7 +124,7 @@ nav img{
     display: none;
 }
 
-  /*Image and Layer*/
+  /*Sidebar and  with content tabs*/
 
   .container {
     margin-left: 5%;
@@ -138,7 +139,7 @@ nav img{
     margin-top: 0.7%;
     border: 1px solid black;
     border-radius: 5px;
-    margin-bottom: 35%;
+    margin-bottom: 34.5%;
       width: 20%;
       background-color: #e9f1fc;
       display: flex;
@@ -164,6 +165,8 @@ nav img{
       font-weight: bold;
   }
   
+ 
+
   .main-content {
       display: flex;
       flex-direction: column;
@@ -205,6 +208,9 @@ nav img{
       display: block;
   }
   
+
+ 
+
     /*Image and Layer*/
   
     .hsp1{

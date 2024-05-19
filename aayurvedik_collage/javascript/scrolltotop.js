@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 
 
+/* For hospitalpage */
 function showContent(contentId) {
     // Remove 'active' class from all tabs
     const tabs = document.querySelectorAll('.tab');
