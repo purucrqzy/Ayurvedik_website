@@ -109,7 +109,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
       <div class="wrapper">
         <div class="r_form_wrap">
           <div class="title">
-            <p id="header_fees">Login</p>
+            <p id="header_fees">Student Login</p>
           </div>
           <div class="r_form">
             <div class="input_wrap">
@@ -253,7 +253,7 @@ a:hover {
   <footer>
     <div class="footer-container">
         <div class="logo-address">
-            <div class="logo"><img src="../image/favicon.ico" alt="Logo" class="logo-img"></div>
+        <div class="logo"><a href="index.html"><img src="../image/favicon.ico" alt="Logo" class="logo-img" ></a></div>
             <div class="address">
                 Gut No.258(P),<br>
                 Satara Parisar,<br>
@@ -278,12 +278,12 @@ a:hover {
                 <h3>Quick Links</h3>
                 <br>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Admission_page.php">Admission</a></li>
-                    <li><a href="hospital_page.php">Hospital</a></li>
-                    <li><a href="Contact_page.html">Contact</a></li>
-                    <li><a href="index.html#course">Contact</a></li>
-                    <li><a href="login/login.php">Login</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Admission_page.php">Admission</a></li>
+                    <li><a href="../hospital_page.php">Hospital</a></li>
+                    <li><a href="../Contact_page.html">Contact</a></li>
+                    <li><a href="../index.html#course">Contact</a></li>
+                    <li><a href="login.php">Login</a></li>
                 </ul>
             </div>
             <div class="contact-us">

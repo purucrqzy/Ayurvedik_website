@@ -339,7 +339,7 @@ a:hover {
   <footer>
     <div class="footer-container">
         <div class="logo-address">
-            <div class="logo"><img src="image/favicon.ico" alt="Logo" class="logo-img"></div>
+        <div class="logo"><a href="index.html"><img src="image/favicon.ico" alt="Logo" class="logo-img" ></a></div>
             <div class="address">
                 Gut No.258(P),<br>
                 Satara Parisar,<br>

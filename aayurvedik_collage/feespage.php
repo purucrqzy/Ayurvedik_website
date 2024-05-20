@@ -54,7 +54,7 @@ $conn->close();
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Pay Fees - GGU</title>
+  <title>Student Profile - SYCET</title>
   <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
   <link rel="stylesheet" href="css/fees_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -269,7 +269,7 @@ a:hover {
   <footer>
     <div class="footer-container">
         <div class="logo-address">
-            <div class="logo"><img src="image/favicon.ico" alt="Logo" class="logo-img"></div>
+        <div class="logo"><a href="index.html"><img src="image/favicon.ico" alt="Logo" class="logo-img" ></a></div>
             <div class="address">
                 Gut No.258(P),<br>
                 Satara Parisar,<br>
