@@ -168,8 +168,10 @@ nav img{
  
 
   .main-content {
+
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       width: 80%;
       padding: 10px;
   }
@@ -196,6 +198,7 @@ nav img{
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: auto;
   }
   
   .content-item {

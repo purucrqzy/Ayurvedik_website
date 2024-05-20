@@ -69,9 +69,70 @@
             <div class="tab" onclick="showContent('camp1')">Medical Camp DEC-2023</div>
             <div class="tab" onclick="showContent('camp2')">Medical Camp JAN-2024</div>
             <div class="tab" onclick="showContent('camp3')">Medical Camp MAR-2024</div>
-            
-        </div>
+    <style>
+        .contact-us1{
+            border: 1px white solid;
+            border-radius: 10px;
+            margin: auto;
+            width: 108.1%;
+            margin-top: 10%;
+            margin-right: auto;
+            margin-left: -4.9%;
+            padding: auto;
+            background-color: #0d0d0e;
+            color: white;
+            align-items: center;
+            text-align: center;
+        }
+        .line{
+            border: 1px solid white;
+            width: 80%;
+            margin-top: 10%;
+            margin-left: 10%;
+            margin-bottom: 10%;
+        }
+    </style>
+    <div class="contact-us1">
+
+        <i class="fas fa-headset" style="font-size: 35px;margin-top:15%; margin-bottom:7%;"></i>
+        <h3>How Can We Help You ?</h3>
+        <h2>lets get in touch !!</h2>
+        <div class="line"></div>
+        <i class="fas fa-phone" style="font-size: 12px;"> (+91) 0240-6608708 / 778</i>
+        <br><br>
+        
+        <i class="fas fa-envelope" style="font-size: 12px; margin-bottom:10%;"></i> shreeyashayurved@gmail.com
+               
+    </div>
+    <style>
+        .para5{
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: auto;
+            width: 108.1%;
+            margin-top: 10%;
+            margin-right: auto;
+            margin-left: -4.9%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            color: #0d0d0e;
+            background-color: azure;
+
+        }
+        .para5 p{
+            margin: 10%;
+        }
+    </style>
+    <div class="para5">
+        <p>Web-baesed Centralize Hospital System
+            <br>
+            Digital Management System</p>
+    </div>
+</div>
+        
+        
         <div class="main-content">
+            <div class="top-containers">
             <div class="other-content">
                 <h2
                     style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: auto;margin-bottom: auto; text-align:center;">
@@ -168,7 +229,7 @@
                 </div>
 
             
-</div>
+        </div>
                 <div id="about" class="content-item">
 
                     <!--Image Gallary-->
@@ -446,7 +507,7 @@
                                 </td>
                             </tr>
                         </table>
-</center>
+        </center>
                     
                     <table class="tab-1">
                         <tr class="head">
@@ -525,9 +586,9 @@
                 ?>
                     </table>
                     </div>
-<div id="patients" class="content-item">
+        <div id="patients" class="content-item">
     
-<br>
+        <br>
                 <div class="image-view-class">
                     <h2>OPD Patients Details</h2><br>
                     <h3> Monthwise Data - 2024</h3>
@@ -556,27 +617,27 @@
                 </div>
 
             
-</div>
-<div id="staff" class="content-item">
-    <div class="pdf-viewer">
+        </div>
+        <div id="staff" class="content-item">
+        <div class="pdf-viewer">
         <h2>Doctor Staff List</h2>
         <iframe src="pdflists/doctor_list.pdf" frameborder="0"></iframe>
-    </div>
-    <div class="pdf-viewer">
+        </div>
+        <div class="pdf-viewer">
         <h2>Nursing Staff List</h2>
         <iframe src="pdflists/nurse_list.pdf" frameborder="0"></iframe>
-    </div>
-    <div class="pdf-viewer">
+        </div>
+        <div class="pdf-viewer">
         <h2>Other Staff List</h2>
         <iframe src="pdflists/other_staff_list.pdf" frameborder="0"></iframe>
-    </div>
-</div>
+        </div>
+        </div>
 
    
 
-<div id="activities" class="content-item">
+        <div id="activities" class="content-item">
 
-<center class="cnter1">
+    <center class="cnter1">
                         <h2
                             style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
                             Social Activities</h2>
@@ -633,10 +694,10 @@
                         </table>
                     </center>           
             
-</div>
-<div id="republicday" class="content-item">
+        </div>
+        <div id="republicday" class="content-item">
 
-<center class="cnter1">
+        <center class="cnter1">
                         <h2
                             style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
                             Republic Day Celebration</h2>
@@ -693,10 +754,10 @@
                         </table>
                     </center>           
             
-</div>
-<div id="camp1" class="content-item">
+        </div>
+        <div id="camp1" class="content-item">
 
-<center class="cnter1">
+        <center class="cnter1">
                         <h2
                             style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
                             Free Medical Camp December - 2023</h2>
@@ -817,15 +878,15 @@
                     <center class="center2"><img src="image/activities/camp1/c24.jpg" alt="image2"></center>
                     
             
-</div>
-<div id="camp2" class="content-item">
+        </div>
+        <div id="camp2" class="content-item">
 
 
-<center class="cnter1">
-    <h2
+        <center class="cnter1">
+        <h2
         style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
         Free Medical Camp - January - 2024</h2>
-    <table class="tbl1">
+        <table class="tbl1">
         <tr>
             <td class="td1">
                 <img src="image/activities/camp2/mcap1.jpg" alt="image1">
@@ -842,10 +903,10 @@
                 <img src="image/activities/camp2/mcap4.jpg" alt="image1">
             </td>
         </tr>
-    </table>
-</center>
-<center class="cnter1">
-    <table class="tbl1">
+        </table>
+        </center>
+        <center class="cnter1">
+        <table class="tbl1">
         <tr>
             <td class="td3">
                 <img src="image/activities/camp2/mcap8.jpg" alt="image1">
@@ -857,10 +918,10 @@
                 <img src="image/activities/camp2/mcap12.jpg " alt="image1">
             </td>
         </tr>
-    </table>
-</center>   
-<center class="cnter1">
-    <table class="tbl1">
+           </table>
+        </center>   
+        <center class="cnter1">
+        <table class="tbl1">
         <tr>
             <td class="td2">
                 <img src="image/activities/camp2/mcap5.jpg" alt="image1">
@@ -873,10 +934,10 @@
             </td>
         </tr>
 
-    </table>
-</center>
-<center class="cnter1">
-    <table class="tbl1">
+     </table>
+        </center>
+        <center class="cnter1">
+        <table class="tbl1">
         <tr>
             <td class="td3">
                 <img src="image/activities/camp2/mcap9.jpg" alt="image1">
@@ -888,13 +949,13 @@
                 <img src="image/activities/camp2/mcap13.jpg " alt="image1">
             </td>
         </tr>
-    </table>
-</center>         
+        </table>
+        </center>         
             
-</div>
-<div id="camp3" class="content-item">
+        </div>
+        <div id="camp3" class="content-item">
 
-<center class="cnter1">
+        <center class="cnter1">
                         <h2
                             style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
                             Free Medical Camp March - 2024</h2>
@@ -934,15 +995,207 @@
 
                         </table>
                     </center>
+                </div>
+            </div>
+            </div>
+            <style>
 
-                             
-            
+    /* Footer */
+    
+    
+    
+    footer {
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.logo-address {
+    flex: 1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.logo-img {
+    width: 150px;
+    height: 130px;
+}
+
+.address {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2e27ff;
+}
+
+.social-icons a:hover {
+    color: red;
+}
+
+.links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+.other-links{
+    flex: 1;
+    margin-left: -30px;
+}
+.quick-links{
+    flex: 1;
+    margin-left: 100px;
+}
+.contact-us{
+    flex: 1;
+    margin-left: 70px;
+}
+.quick-links h3{
+    text-decoration: underline;
+}
+.other-links h3{
+    text-decoration: underline;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #0d0d0e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: lightgreen;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.copyright p {
+    
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+</style>
+ <!--Footer-->
+         
+ <footer>
+    <div class="footer-container">
+        <div class="logo-address">
+            <div class="logo"><img src="image/favicon.ico" alt="Logo" class="logo-img"></div>
+            <div class="address">
+                Gut No.258(P),<br>
+                Satara Parisar,<br>
+                Aurangabad (MS) - 431010
+            </div>
+           
+        </div>
+        <div class="links">
+            <div class="other-links">
+                <h3>Other useful Links</h3>
+                <br>
+                <ul>
+                    <li><a href="https://sycet.org/" target="_blank">SYCET - Engineering</a></li>
+                    <li><a href="https://www.sypoly.org/" target="_blank">SYPOLY - Polytechnique</a></li>
+                    <li><a href="https://www.simsr.org/" target="_blank">SIMSR - MBA</a></li>
+                    <li><a href="https://en.syppharmacy.org/" target="_blank">SYIPER - Pharmacy</a></li>
+                    <li><a href="https://www.syp.ac.in/" target="_blank">Shreeyash Pratishthan</a></li>
+                    
+                </ul>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <br>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Admission_page.php">Admission</a></li>
+                    <li><a href="hospital_page.php">Hospital</a></li>
+                    <li><a href="Contact_page.html">Contact</a></li>
+                    <li><a href="index.html#course">Contact</a></li>
+                    <li><a href="login/login.php">Login</a></li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone" style="color: red;"></i> <span>Phone</span>
+                        <p>+0240 6608772 / 701 / 713</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope" style="color: red;"></i> <span>Email</span>
+                        <p>sycet@yahoo.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt" style="color: red;"></i> <span>Address</span>
+                        <p>Gut No.258, Satara Parisar, Beed By Pass, Aurangabad, MH</p>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shreeyashengineering/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/sycetadmin/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/shreeyashcollege/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/shreeyashcoe/" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <h4>About Us</h4>
+        <p><i class="fa fa-copyright"></i> Purushottam & Shubham , All Right Reserved.<br>
+            Designed By<br> <i class="fa fa-heart" style="color: red;"></i> Purushottam Garad<br>
+            <i class="fa fa-heart" style="color: red;"></i>Shubham Gangane
+        </p>
 </div>
+</footer>
+        </div>
        
-            
-</div>
-</div>
-</div>
+    </div>
+    
+   
+    
+ 
+
 <button id="scrollToTopButton">TOP</button>
 <script src="javascript/scrolltotop.js"></script>         
 </body>

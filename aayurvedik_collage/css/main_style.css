@@ -456,17 +456,17 @@ p{
 }
 
 /* Optional: Style the marquee */
-.subcon marquee {
-    font-size: 16px;
-    color: #ca2727;
-    height: 209px;
+.subcon marquee{
+    color: #007bff;
 }
 
 
 /* Vision and Mission*/
 
 .container1 {
-    margin-top: 1%;
+    margin-top: auto;
+    max-width: 80%;
+    margin-left: 8.8%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -474,8 +474,10 @@ p{
 
 .column {
     flex: 1;
+    margin: 1%;
+    /*
     margin-left: 8.8%;
-    margin-right: auto;
+    margin-right: auto;*/
     padding: 10px;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box shadow */
@@ -490,22 +492,14 @@ p{
     color:lightslategrey
 }
 
-.column2 ul{
+.column ul{
+    width: 88%;
     margin-left: 5%;
     text-align: justify;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color:lightslategrey
-}
-
-.column2 {
-    flex: 1;
-    margin-left: 8.8%;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box shadow */
 }
 
 .note-icon {
