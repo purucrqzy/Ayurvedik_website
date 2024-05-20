@@ -58,6 +58,7 @@
     <div class="container">
         <div class="sidebar">
             <div class="tab active" onclick="showContent('vision')">Vision / Mission</div>
+            <div class="tab" onclick="showContent('notice')">News & Notices</div>
             <div class="tab" onclick="showContent('about')">About Hospital</div>
             <div class="tab" onclick="showContent('infrastructure')">Infrastructure</div>
             <div class="tab" onclick="showContent('clinical')">Clinical Material</div>
@@ -152,6 +153,22 @@
 
                     </div>
                 </div>
+                <div id="notice" class="content-item">
+    
+<br>
+                <div class="image-view-class">
+                    <h2>Notice</h2><br>
+                <br>
+                    <div class="image-viewer2">
+                        <img id="thumbnail" src="image/notice1.jpeg" alt="Thumbnail Image">
+                    </div>
+                <br>
+                 
+                
+                </div>
+
+            
+</div>
                 <div id="about" class="content-item">
 
                     <!--Image Gallary-->
