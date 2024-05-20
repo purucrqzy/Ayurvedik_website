@@ -279,6 +279,125 @@
                             </tr>
                         </table>
                     </center>
+                    <h2>Details of the Hospital</h2>
+                    <h3>REQUIREMENT OF AN ATTACHED HOSPITAL OF AYURVEDA COLLEGE</h3>
+                    <table class="tab-1">
+                        <tr class="head">
+                            <th class="col-1">Sr no.</th>
+                            <th class="col-2">Particular</th>
+                            <th class="col-3">Area Sq.m</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Total constructed area of Hospital</td>
+                            <td>6246.72</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Hospital Administration desk</td>
+                            <td>156.49</td>
+
+                        </tr>
+                        <?php
+                            $sql = "SELECT * FROM `table5_data`";
+                            $result = $conn->query($sql);
+                            if ($result->num_rows > 0) {
+                                while ($row = $result->fetch_assoc()) {
+                                    echo "<tr><td>" . $row["sr no"] . "</td><td>" . $row["Particulars"] . "</td><td>" . $row["Area"] . "</td></tr>";
+                                }
+                            } else {
+                                echo "<tr><td colspan='5'>0 results</td></tr>";
+                            }
+                        ?>
+                    </table>
+                    <table class="tab-1">
+                        <tr class="head">
+                            <th class="col-1">Sr no.</th>
+                            <th class="col-2">Particular</th>
+                            <th class="col-3">Area Sq.m</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Our patient department(OPD)</td>
+                            <td>506.75</td>
+                        </tr>
+                        <?php
+                            $sql = "SELECT * FROM `table6_data`";
+                            $result = $conn->query($sql);
+                            if ($result->num_rows > 0) {
+                                while ($row = $result->fetch_assoc()) {
+                                        echo "<tr><td>" . $row["sr no"] . "</td><td>" . $row["Particulars"] . "</td><td>" . $row["Area"] . "</td></tr>";
+                                }
+                            } else {
+                                        echo "<tr><td colspan='5'>0 results</td></tr>";
+                            }
+                        ?>
+                    </table>
+                    <table class="tab-1">
+                        <tr class="head">
+                            <th class="col-1">Sr no.</th>
+                            <th class="col-2">Particular</th>
+                            <th class="col-3">Area Sq.m</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>In Patients Department(IPD)</td>
+                            <td>1716.54</td>
+                        </tr>
+                        <?php
+                            $sql = "SELECT * FROM `table7_data`";
+                            $result = $conn->query($sql);
+                            if ($result->num_rows > 0) {
+                                    while ($row = $result->fetch_assoc()) {
+                                            echo "<tr><td>" . $row["sr no"] . "</td><td>" . $row["Particulars"] . "</td><td>" . $row["Area"] . "</td></tr>";
+                                        }
+                                    } else {
+                                        echo "<tr><td colspan='5'>0 results</td></tr>";
+                                    }
+                ?>
+                    </table>
+
+                    <table class="tab-1">
+                        <tr class="head">
+                            <th class="col-1">Sr no.</th>
+                            <th class="col-2">Particular</th>
+                            <th class="col-3">Area Sq.m</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Operation Theature Block</td>
+                            <td></td>
+                        </tr>
+                        <?php
+        $sql = "SELECT * FROM `table8_data`";
+        $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<tr><td>" . $row["sr no"] . "</td><td>" . $row["Particulars"] . "</td><td>" . $row["Area"] . "</td></tr>";
+                    }
+                } else {
+                    echo "<tr><td colspan='5'>0 results</td></tr>";
+                }
+                ?>
+                    </table>
+                    <table class="tab-1">
+                        <tr class="head">
+                            <th class="col-1">Sr no.</th>
+                            <th class="col-2">Particular</th>
+                            <th class="col-3">Area Sq.m</th>
+                        </tr>
+                        <?php
+        $sql = "SELECT * FROM `table9_data`";
+        $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<tr><td>" . $row["sr no"] . "</td><td>" . $row["Particulars"] . "</td><td>" . $row["Area"] . "</td></tr>";
+                    }
+                } else {
+                    echo "<tr><td colspan='5'>0 results</td></tr>";
+                }
+                ?>
+                    </table>
                 </div>
                 <div id="clinical" class="content-item">
                     <center class="cnter1">
