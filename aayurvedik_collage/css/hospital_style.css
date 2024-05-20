@@ -331,6 +331,32 @@ nav img{
       height: 400px;
   
   }
+   .td4 img{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:400px;
+    height: 400px;
+
+}
+.td5 img{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 650px;
+
+}
+
+.center2{
+    width: auto;
+    height: auto;
+}
+.center2 img{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+}
+
   
   /*Vision and Mission*/
   .column{
