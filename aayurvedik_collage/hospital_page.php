@@ -66,15 +66,15 @@
             <div class="tab" onclick="showContent('staff')">Hospital Staff</div>
             <div class="tab" onclick="showContent('activities')">Social Activities</div>
             <div class="tab" onclick="showContent('republicday')">Republic Day</div>
-            <div class="tab" onclick="showContent('camp1')">Medical Camp 1</div>
-            <div class="tab" onclick="showContent('camp2')">Medical Camp 2</div>
-            <div class="tab" onclick="showContent('camp3')">Medical Camp 3</div>
+            <div class="tab" onclick="showContent('camp1')">Medical Camp DEC-2023</div>
+            <div class="tab" onclick="showContent('camp2')">Medical Camp JAN-2024</div>
+            <div class="tab" onclick="showContent('camp3')">Medical Camp MAR-2024</div>
             
         </div>
         <div class="main-content">
             <div class="other-content">
                 <h2
-                    style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: auto;">
+                    style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: auto;margin-bottom: auto; text-align:center;">
                     SHREEYASH AYURVEDIC COLLEGE AND HOSPITAL</h2>
 
                 <section class="hsp1">
