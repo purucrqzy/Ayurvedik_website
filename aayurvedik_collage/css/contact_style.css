@@ -99,6 +99,121 @@ nav img{
    display:none;
 }
 
+/* Footer */
+
+footer {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /*background: linear-gradient(135deg, #fb71db, #10f263); /* Blue to Purple gradient */
+   background-color: azure;
+   padding: 20px;
+   color: rgb(0, 0, 0); /* Ensure text is readable on the gradient background */
+}
+
+.footer-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.logo-address {
+   flex: 1;
+}
+
+.logo {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.logo-img {
+   width: 150px;
+   height: 130px;
+}
+
+.address {
+   margin-bottom: 10px;
+}
+
+.social-icons a {
+   margin-right: 10px;
+   text-decoration: none;
+   font-size: 20px;
+   color: #2e27ff;
+}
+
+.social-icons a:hover {
+   color: #3ae13d;
+}
+
+.links {
+   display: flex;
+   flex: 2;
+   justify-content: space-between;
+}
+.other-links{
+   flex: 1;
+}
+.quick-links{
+   flex: 1;
+   margin-left: 100px;
+}
+.contact-us{
+   flex: 1;
+   margin-left: 100px;
+}
+.quick-links h3{
+   text-decoration: underline;
+}
+.other-links h3{
+   text-decoration: underline;
+}
+h3 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+li {
+   margin-bottom: 8px;
+}
+
+a {
+   text-decoration: none;
+   color: #0d0d0e;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.copyright{
+   padding: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: black;
+   background-color: lightgreen;
+   margin-top: 20px;
+   text-align: center;
+
+}
+
+.copyright p {
+   
+   color:#777;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 10px;
+   
+}
+
+
 /* Remove outline of all elements on focus */
 *:focus {
    outline: 0;

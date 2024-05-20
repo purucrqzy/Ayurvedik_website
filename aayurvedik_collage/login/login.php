@@ -82,7 +82,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
   <title>Students Login - SYCET</title>
   <link rel="shortcut icon" href="../image/favicon.ico" type="image/svg+xml">
   <link rel="stylesheet" href="../css/login.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
@@ -133,5 +133,194 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
     </form>
   </section>
   <div class="none_div"></div>
+  
+  <!--Footer-->
+  <style>
+          /* Footer */
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*background: linear-gradient(135deg, #fb71db, #10f263); /* Blue to Purple gradient */
+    background-color: azure;
+    padding: 20px;
+    color: rgb(0, 0, 0); /* Ensure text is readable on the gradient background */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-address {
+    flex: 1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.logo-img {
+    width: 150px;
+    height: 130px;
+}
+
+.address {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2e27ff;
+}
+
+.social-icons a:hover {
+    color: #3ae13d;
+}
+
+.links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+.other-links{
+    flex: 1;
+}
+.quick-links{
+    flex: 1;
+    margin-left: 100px;
+}
+.contact-us{
+    flex: 1;
+    margin-left: 100px;
+}
+.quick-links h3{
+    text-decoration: underline;
+}
+.other-links h3{
+    text-decoration: underline;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #0d0d0e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: lightgreen;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.copyright p {
+    
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+        </style>
+  <footer>
+    <div class="footer-container">
+        <div class="logo-address">
+            <div class="logo"><img src="../image/favicon.ico" alt="Logo" class="logo-img"></div>
+            <div class="address">
+                Gut No.258(P),<br>
+                Satara Parisar,<br>
+                Aurangabad (MS) - 431010
+            </div>
+           
+        </div>
+        <div class="links">
+            <div class="other-links">
+                <h3>Other useful Links</h3>
+                <br>
+                <ul>
+                    <li><a href="https://sycet.org/" target="_blank">SYCET - Engineering</a></li>
+                    <li><a href="https://www.sypoly.org/" target="_blank">SYPOLY - Polytechnique</a></li>
+                    <li><a href="https://www.simsr.org/" target="_blank">SIMSR - MBA</a></li>
+                    <li><a href="https://en.syppharmacy.org/" target="_blank">SYIPER - Pharmacy</a></li>
+                    <li><a href="https://www.syp.ac.in/" target="_blank">Shreeyash Pratishthan</a></li>
+                    
+                </ul>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <br>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Admission_page.php">Admission</a></li>
+                    <li><a href="hospital_page.php">Hospital</a></li>
+                    <li><a href="Contact_page.html">Contact</a></li>
+                    <li><a href="index.html#course">Contact</a></li>
+                    <li><a href="login/login.php">Login</a></li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone" style="color: red;"></i> <span>Phone</span>
+                        <p>+0240 6608772 / 701 / 713</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope" style="color: red;"></i> <span>Email</span>
+                        <p>sycet@yahoo.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt" style="color: red;"></i> <span>Address</span>
+                        <p>Gut No.258, Satara Parisar, Beed By Pass, Aurangabad, MH</p>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shreeyashengineering/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/sycetadmin/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/shreeyashcollege/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/shreeyashcoe/" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <h4>About Us</h4>
+        <p><i class="fa fa-copyright"></i> Purushottam & Shubham , All Right Reserved.<br>
+            Designed By<br> <i class="fa fa-heart" style="color: red;"></i> Purushottam Garad<br>
+            <i class="fa fa-heart" style="color: red;"></i> Shubham Gangane
+        </p>
+</div>
+</footer>
+
+<button id="scrollToTopButton">TOP</button>
+<script src="../javascript/scrolltotop.js"></script>
 </body>
 </html>

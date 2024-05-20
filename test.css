@@ -1,13 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Footer */
 
 footer {
-    background-color: #f8f9fa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*background: linear-gradient(135deg, #fb71db, #10f263); /* Blue to Purple gradient */
+    background-color: azure;
     padding: 20px;
+    color: rgb(0, 0, 0); /* Ensure text is readable on the gradient background */
 }
 
 .footer-container {
@@ -41,11 +39,11 @@ footer {
     margin-right: 10px;
     text-decoration: none;
     font-size: 20px;
-    color: #007bff;
+    color: #2e27ff;
 }
 
 .social-icons a:hover {
-    color: #0056b3;
+    color: #3ae13d;
 }
 
 .links {
@@ -53,12 +51,25 @@ footer {
     flex: 2;
     justify-content: space-between;
 }
-
-.other-links, .quick-links {
+.other-links{
     flex: 1;
 }
-
+.quick-links{
+    flex: 1;
+    margin-left: 100px;
+}
+.contact-us{
+    flex: 1;
+    margin-left: 100px;
+}
+.quick-links h3{
+    text-decoration: underline;
+}
+.other-links h3{
+    text-decoration: underline;
+}
 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -74,9 +85,29 @@ li {
 
 a {
     text-decoration: none;
-    color: #007bff;
+    color: #0d0d0e;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.copyright{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: lightgreen;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.copyright p {
+    
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
 }

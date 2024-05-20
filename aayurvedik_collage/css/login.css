@@ -266,8 +266,9 @@
 
     }
       
+
 /*scroll to top button css*/
-  #scrollToTopButton{
+#scrollToTopButton{
     font-weight: 1000;
     position: fixed;
     bottom: 20px;
@@ -286,3 +287,4 @@
   #scrollToTopButton:hover{
     background-color: #e74b33;
   }
+  
