@@ -64,6 +64,10 @@
             <div class="tab" onclick="showContent('patients')">IPD-OPD Patients</div>
             <div class="tab" onclick="showContent('staff')">Hospital Staff</div>
             <div class="tab" onclick="showContent('activities')">Social Activities</div>
+            <div class="tab" onclick="showContent('republicday')">Republic Day</div>
+            <div class="tab" onclick="showContent('camp1')">Medical Camp 1</div>
+            <div class="tab" onclick="showContent('camp2')">Medical Camp 2</div>
+            <div class="tab" onclick="showContent('camp3')">Medical Camp 3</div>
             
         </div>
         <div class="main-content">
@@ -443,18 +447,18 @@
                         <table class="tbl1">
                             <tr>
                                 <td class="td1">
-                                    <img src="image/activities/mcap1.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/1.jpg" alt="image1">
                                 </td>
                                 <td class="td1">
-                                    <img src="image/activities/mcap2.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/2.jpg" alt="image1">
                                 </td>
                             </tr>
                             <tr>
                                 <td class="td1">
-                                    <img src="image/activities/mcap3.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/3.jpg" alt="image1">
                                 </td>
                                 <td class="td1">
-                                    <img src="image/activities/mcap4.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/4.jpg" alt="image1">
                                 </td>
                             </tr>
                         </table>
@@ -464,13 +468,13 @@
                         <table class="tbl1">
                             <tr>
                                 <td class="td2">
-                                    <img src="image/hospitalpage/h12.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/5.jpg" alt="image1">
                                 </td>
                                 <td class="td2">
-                                    <img src="image/hospitalpage/h23.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/6.jpg" alt="image1">
                                 </td>
                                 <td class="td2">
-                                    <img src="image/hospitalpage/hh9.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/7.jpg" alt="image1">
                                 </td>
                             </tr>
 
@@ -481,19 +485,260 @@
                         <table class="tbl1">
                             <tr>
                                 <td class="td2">
-                                    <img src="image/hospitalpage/hh7.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/8.jpg" alt="image1">
                                 </td>
                                 <td class="td2">
-                                    <img src="image/hospitalpage/hh5.jpg" alt="image1">
+                                    <img src="image/activities/other_activities/9.jpg" alt="image1">
                                 </td>
                                 <td class="td2">
-                                    <img src="image/hospitalpage/hh3.jpg " alt="image1">
+                                    <img src="image/activities/other_activities/10.jpg " alt="image1">
                                 </td>
                             </tr>
                         </table>
                     </center>           
             
 </div>
+<div id="republicday" class="content-item">
+
+<center class="cnter1">
+                        <h2
+                            style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
+                            Republic Day Celebration</h2>
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j1.webp" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j2.webp" alt="image1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j3.webp" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j4.webp" alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j5.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j6.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j7.webp" alt="image1">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j8.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j9.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j10.webp " alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>           
+            
+</div>
+<div id="camp1" class="content-item">
+
+<center class="cnter1">
+                        <h2
+                            style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
+                            Republic Day Celebration</h2>
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j1.webp" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j2.webp" alt="image1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j3.webp" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j4.webp" alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j5.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j6.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j7.webp" alt="image1">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j8.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j9.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j10.webp " alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>           
+            
+</div>
+<div id="camp2" class="content-item">
+
+<center class="cnter1">
+                        <h2
+                            style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
+                            Republic Day Celebration</h2>
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j1.webp" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j2.webp" alt="image1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j3.webp" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j4.webp" alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j5.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j6.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j7.webp" alt="image1">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j8.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j9.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j10.webp " alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>           
+            
+</div>
+<div id="camp3" class="content-item">
+
+<center class="cnter1">
+                        <h2
+                            style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(7, 136, 0);margin-top: 1%; margin-left: 5%;margin-bottom: 2%;">
+                            Republic Day Celebration</h2>
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j1.webp" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j2.webp" alt="image1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j3.webp" alt="image1">
+                                </td>
+                                <td class="td1">
+                                    <img src="image/activities/republicday/j4.webp" alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j5.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j6.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j7.webp" alt="image1">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </center>
+
+                    <center class="cnter1">
+                        <table class="tbl1">
+                            <tr>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j8.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j9.webp" alt="image1">
+                                </td>
+                                <td class="td2">
+                                    <img src="image/activities/republicday/j10.webp " alt="image1">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>           
+            
+</div>
+       
             
 </div>
 </div>
