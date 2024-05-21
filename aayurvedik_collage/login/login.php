@@ -9,9 +9,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validate inputs
     if (empty($email)) {
-        echo "Please enter the email.";
+        echo "<script>alert('Please enter the email.');</script>";
     } else if (empty($password)) {
-        echo "Please enter the password.";
+        echo "<script>alert('Please enter the password.');</script>";
     } else {
         // Prepare and execute the query
         $sql = "SELECT email, password FROM `add_data` WHERE email = ?";
@@ -38,21 +38,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         $insert_stmt->execute();
                         $insert_stmt->close();
                     } else {
-                        echo "Error: Could not prepare insert statement.";
+                        echo "<script>alert('Error: Could not prepare insert statement.');</script>";
                     }
 
                     // Redirect user to the welcome page
                     header("Location:../feespage.php");
                     exit;
                 } else {
-                    echo "Invalid password.";
+                    echo "<script>alert('Invalid password.');</script>";
                 }
             } else {
-                echo "No account found with that email.";
+                echo "<script>alert('No account found with that email.');</script>";
             }
             $stmt->close();
         } else {
-            echo "Error: Could not prepare select statement.";
+            echo "<script>alert('Error: Could not prepare select statement.');</script>";
         }
     }
     

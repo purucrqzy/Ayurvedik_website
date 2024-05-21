@@ -95,7 +95,7 @@ $conn->close();
             <input type="text" name="name" class="input" id="name" value="<?php echo htmlspecialchars($name); ?>" required>
             <input type="text" name="course" class="input" id="course" value="<?php echo htmlspecialchars($course); ?>" required>
             <div class="input_item">
-              <label for="year" style="margin-left: 3%;
+              <label for="year" style="margin-left: 12%;
                                         font-weight: 800;">Year</label>
             <input type="text" name="year" class="input" id="year" value="<?php echo htmlspecialchars($year); ?>" required>
             <button type="button" id="out-btn" onclick="location.href='login/logout.php'">Logout</button>
