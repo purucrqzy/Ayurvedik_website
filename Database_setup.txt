@@ -1,0 +1,19 @@
+#============================#
+follow below steps to create the databse and data inside it
+
+===========================================================
+
+1. start the XAMMP and the start the APACHE and MYSQL servers 
+2. click on the admin button next to the mysql start button
+3. when screen open click on databases tab
+4. click on create new 
+5. enter database name as ayurvedik_hospital and hit create the databse will be created 
+6. go to the import tab on the top of the screen 
+7. click choose file button select the files ayurvedik_hospital.sql from the extracted folder
+8. and scroll down and click import button 
+9. the databse will be created
+===========================================================
+
+now do the same for the ayurvedik.sql file as well 
+
+===========================================================
